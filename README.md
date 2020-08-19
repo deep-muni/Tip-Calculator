@@ -4,13 +4,13 @@ An android application to calculate tip and share per person for a given amount.
 ## Introduction
 Tip Calculator application will help the user to calculate the tip on the bill amount. The application is simple to use and requires no guidance or help.
 
-![](/images/image_1.png)
+![](/files/image_1.png)
 
 ## Unified Modeling Language
 
 In this application, the user needs to input an amount, input the tip percentage and input the party size (optional). The application will calculate the tip amount, the total amount and share per head and show the output to the user on the screen.
 
-![](/images/image_2.png)
+![](/files/image_2.png)
 
 ## Tools
 
@@ -32,19 +32,19 @@ The implementation for the application was carried out in phases. The phases are
 
 Wireframing of the application helps to understand the initial design of the application. Using the wireframe, the design components and the application programming component can be figured out.
 
-![](/images/image_3.png)
+![](/files/image_3.png)
 
 ### Design Prototype
 
 The high-fidelity prototype was created in Android Studio using XML. The prototype helps to understand the alignment for each section, the color scheme to be used, the size of each section, etc.
 
-![](/images/image_4.png)
+![](/files/image_4.png)
 
 ### Final Design
 
 In the final design, the accurate color schemes were chosen, the shape of the buttons and text views were changed, the font size was increased and the text colours were changed.
 
-![](/images/image_1.png)
+![](/files/image_1.png)
 
 ### Development
 
@@ -80,20 +80,20 @@ While developing the application (designing and programming), I tried to cover s
 ### Visibility of System Status
 The user can see the output of the calculations as soon as they change any input. This is always available on the screen. Also, once the user changes the value on seek bar it is automatically updated in the text field near it to let the user know the percent they are tipping.
 
-![](/images/image_5.png)
+![](/files/image_5.png)
 
 ### User Control and Freedom
 
 If the user enters a wrong value or wants to remove the entire input, the application provided them with a clear and reset button. The clear button will remove a single character from the input and the reset button will reset the entire input to the default values.
 
-![](/images/image_6.png)
+![](/files/image_6.png)
 
 ### Help users to recognize, Diagnose, and Recover from errors
 
 There can be a maximum 9 characters (including the decimal) in the amount input area. After this user won’t be allowed to enter any more digit and a Toast with message “Entered amount is too large!!” will be displayed. This is done to avoid the error if the number limit is reached for a particular data type.
 (This idea was suggested by Prof. Meredith)	
 
-![](/images/image_7.png)
+![](/files/image_7.png)
 
 ### Prevent Errors
 
@@ -117,13 +117,13 @@ So, this is how I have prevented the errors from occurring in the application.
 
 To allow user to enter a big number with many zeros, the button “00” will append two zeros together. This is done to provide ease to the user.
 
-![](/images/image_8.png)
+![](/files/image_8.png)
 
 ### Focus on Aesthetic and Minimalist Design
 
 To provide the user with a good user interface, only the required sections are inserted. They are properly aligned so that the user does not get confused. The input bar has a black color, which can be noticed as soon as the application is opened. This helps the user understand that the value is to be inserted in that field. For tip percent and the number of people, a different type of input style is being used so that the user does not get confused while they are inserting values using the custom keypad. They can see the update in the output as soon as they change the input, i.e., they don’t need to click on the button such as “calculate” to see the output.
 
-![](/images/image_9.png)
+![](/files/image_9.png)
 
 ## Test cases
 
@@ -134,32 +134,32 @@ User is able to remove an incorrect character using the clear button “C”.
 
     Incorrect value entered
 
-    ![](/images/image_10.png)
+    ![](/files/image_10.png)
 
     Incorrect value corrected
 
-    ![](/images/image_11.png)
+    ![](/files/image_11.png)
 
 -	Test Scenario 2
 User is able to reset the entire input.
 
     Entire input needs to be removed
     
-    ![](/images/image_12.png)
+    ![](/files/image_12.png)
     
     Entire output reset to default value
 
-    ![](/images/image_13.png)
+    ![](/files/image_13.png)
     
 - Test Scenario 3
 User tries to enter a value which is greater than 9 characters (including the decimal point).
 
-    ![](/images/image_14.png)
+    ![](/files/image_14.png)
 
 -	Test Scenario 4
 Application is able to provide correct output for the given input.
 
-    ![](/images/image_15.png)
+    ![](/files/image_15.png)
 
 ## Reference
 
