@@ -102,7 +102,7 @@ There are two pieces of evidence for this heuristic.
 1.	As we are working with monetary values, a mistake in entering the amount may yield incorrect results. For example, 1250.00 instead of 12.50. To avoid this scenario, I have not provided an option for the user to enter decimal points themselves. The user will enter the value starting at the cent’s place and once they enter more value, it will shift to the dollar’s place.
 	For example: Enter $ 12.50
 
-    | Field | Usage |
+    | Field | Value |
     | ------ | ------ |
     | input value “1” |	$ 0.01 |
     | input value “2” | $ 0.12 |
@@ -164,15 +164,15 @@ Application is able to provide correct output for the given input.
 ## Reference
 
 > [1] "Download Android Studio and SDK tools  |  Android Developers", Android Developers, 2020. [Online]. Available: https://developer.android.com/studio. [Accessed: 08- Mar- 2020]
-.
+
 > [2] "Flowchart Maker & Online Diagram Software", Draw.io, 2020. [Online]. Available: https://www.draw.io/. [Accessed: 08- Mar- 2020]
-.
+
 > [3] Kotlin, 2020. [Online]. Available: https://kotlinlang.org/. [Accessed: 08- Mar- 2020]
-.
+
 > [4] "HapticFeedbackConstants  |  Android Developers", Android Developers, 2020. [Online]. Available: https://developer.android.com/reference/android/view/HapticFeedbackConstants. [Accessed: 09- Mar- 2020]
-.
+
 > [5] "SeekBar  |  Android Developers", Android Developers, 2020. [Online]. Available: https://developer.android.com/reference/android/widget/SeekBar. [Accessed: 09- Mar- 2020]
-.
+
 > [6] "Toasts overview  |  Android Developers", Android Developers, 2020. [Online]. Available: https://developer.android.com/guide/topics/ui/notifiers/toasts. [Accessed: 10- Mar- 2020]
-.   
+   
 > [7] Neilsen, J. (1994). Enhancing the explanatory power of usability heuristic. In: ACM CHI'94 Conf. pp.152-158.
