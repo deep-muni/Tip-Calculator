@@ -1,3 +1,29 @@
 <resources>
     <string name="app_name">Tip Calculator</string>
+    <string name="addZero">0%1$s</string>
+    <string name="addDollar">\u0024\u0020%1$s</string>
+    <string name="addZeroEnd">%1$s0</string>
+    <string name="invalid">INVALID\u0020INPUT</string>
+    <string name="zeros">"0.00</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="zero">0</string>
+    <string name="doubleZero">00</string>
+    <string name="dollar">\u0024</string>
+    <string name="percentage">\u0025</string>
+    <string name="minus">\u2212</string>
+    <string name="plus">\u002B</string>
+    <string name="tip">Tip</string>
+    <string name="total">Total</string>
+    <string name="share">Share</string>
+    <string name="clear">C</string>
+    <string name="reset">Reset</string>
+    <string name="split">Split</string>
 </resources>
